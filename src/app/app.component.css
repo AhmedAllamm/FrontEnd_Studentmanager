@@ -1,0 +1,11 @@
+::ng-deep .p-dropdown {
+    display: inline-flex;
+    position: relative;
+  }
+  
+  ::ng-deep .p-dropdown .p-dropdown-trigger {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
